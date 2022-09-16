@@ -7,8 +7,8 @@ function save(event){
 
 
 function showTotalPrice(event){
-    const price = document.getElementById('price').value;
-    const installation = document.getElementById('installation').value;
+    const price = parseInt(document.getElementById('price').value);
+    const installation = parseInt(document.getElementById('installation').value);
 
     console.log('price');
     console.log('installation');
